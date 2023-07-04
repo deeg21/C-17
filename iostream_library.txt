@@ -1,0 +1,26 @@
+/*
+   Date: 3rd July, 2023
+   
+
+   ios_base-->ios-->istream-->cin
+   ios_base-->ios-->ostream->cout
+
+   ios_base-->ios-->istream-->istringstream
+   ios_base-->ios-->istream-->ifstream
+
+   ios_base-->ios-->ostream-->ostringstream
+   ios_base-->ios-->ostream-->ofstream
+
+   ios_base-->ios-->isttream,ostream-->iostream-->fstream
+   ios_base-->ios-->isttream,ostream-->iostream-->stringstream
+
+   These classes are prefixed with keyword basic_ in the STL Documentation.
+   These can be specialised for different char types. (like wistream..for wchar_t)
+   The  std::ios represents an object that maintains a stream of data that can be in good state, empty of data(EOF) state or some fail state.
+
+   ifstream, ofstream and fstream inherit from istream, ostream and iostream respectively, but lift their capabilities to redirect the I/O from and to files from the computer's filesystem.
+
+  The istringstream, ostringstream and iostringstream work pretty analogously. They help build strings in memory, and/or consuming data from them.
+   
+   
+*/

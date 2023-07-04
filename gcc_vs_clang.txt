@@ -1,0 +1,19 @@
+/*
+   Date: 2nd July, 2023
+   Understanding GCC and clang
+   Reference: https://www.incredibuild.com/blog/gcc-vs-clang-battle-of-the-behemoths
+*/
+
+/*
+   GCC: GNU C compiler, developed by Richard Stallman.
+   current version:10.3
+   It supports C, C++, Objective-C, Ada, Fortran, Go, D.
+   It is available through MingW on windows. 
+   Major releases are supervised through a steering committee of highly accomplished individuals from different organisations.
+   
+  Clang/LLVM: Let There Be Dragons
+  Clang/LLVM is a compiler toolchain that supports C, C++, and Objective-C natively.
+  Clang is the frontend and LLVM is the backend.
+  
+   
+*/
